@@ -1,26 +1,96 @@
 - year: 2026
-  title: Placeholder publication title on structural variation in crop genomes
-  authors: Green A, Collaborator B, Collaborator C
-  venue: Journal of Plant Genomics
-  note: In review
-  links:
-    - label: Preprint
-      url: https://example.com/preprint
+  title: Gene reduction and functional divergence shaping sclareol biosynthesis in Salvia sclarea
+  authors: S Choi, D Jeon, S Lee, C Kim
+  note: Co-author · Under review
+- year: 2026
+  title: Integrative Phenotypic and Transcriptomic Network Analysis Reveals Ion Homeostasis-Associated Modules Underlying Saline-Alkaline Tolerance in Sorghum
+  authors: S Kim, D Jeon, C Kim
+  note: Co-first author · Under review
+- year: 2026
+  title: Chromosome-scale Genome Assembly and Annotation of Anise Hyssop (Agastache foeniculum)
+  authors: Y-J Sung, D Jeon, C Kim
+  note: Co-author · Under review
+- year: 2026
+  title: "Genome Size Reduction in the Tetraploid Grass Zoysia japonica: Integrating Comparative Genomics Approaches for the Chloridoideae Subfamily"
+  authors: S Lee, D Jeon, S Choi, C Kim
+  note: Co-author · Under review
+- year: 2026
+  title: Genetic Dissection and Transcriptomic Analysis of a Novel High-Tillering Phenotype in Rice Derived from Weedy Rice (Hapcheonaengmi3) and Tongil-Type Rice (Milyang23)
+  authors: K Shim, D Jeon, Y Jeon, C Adeva, H Lee, J Kang, S Park, S Ahn, I Park
+  venue: The Plant Genome
+  note: Co-first author · Accepted
+- year: 2026
+  title: A Chromosome-scale assembly of the wasabi genome reveals insights into sub-genome evolution and glucosinolates biosynthesis
+  authors: D Jeon, S Lee, S Choi, AH Paterson, C Kim
+  venue: BMC Plant Biology
+  note: First author · Accepted
+- year: 2026
+  title: "Genomic selection for multi-trait crop improvement in wheat (Triticum aestivum L.): a practical modeling approach"
+  authors: D Jeon, C Choi, J Park, C Kang, J Kim, C Kim
+  venue: BMC Plant Biology
+  note: First author · Published
 - year: 2025
-  title: Placeholder publication title on stress-response transcriptomics
-  authors: Green A, Collaborator D
-  venue: Plant Molecular Systems
-  note: Published
-  links:
-    - label: DOI
-      url: https://doi.org/
-    - label: Code
-      url: https://github.com/
+  title: The first application of genomic selection for tree morphological traits in Pinus koraiensis using markers identified through a genome-wide association study
+  authors: D Jeon, Y Kang, Y Lim, K Lee, KS Cheon, D Shim, C Kim
+  venue: "Forestry: An International Journal of Forest Research"
+  note: Co-first author · Published
 - year: 2024
-  title: Placeholder publication title on pangenome-enabled trait discovery
-  authors: Green A, Collaborator E, Collaborator F
-  venue: Theoretical Crop Biology
-  note: Published
-  links:
-    - label: PDF
-      url: https://example.com/paper.pdf
+  title: High-quality Chromosomal-Level Genome Assembly of the Wasabi (Eutrema japonicum) Magic Cultivar
+  authors: D Jeon, Y Sung, C Kim
+  venue: Scientific Data
+  note: First author · Published
+- year: 2024
+  title: "Polyploids of Brassicaceae: Genomic Insights and Assembly Strategies"
+  authors: D Jeon, C Kim
+  venue: Plants
+  note: First author · Published
+- year: 2023
+  title: "Deciphering the Genetic Mechanisms of Salt Tolerance in Sorghum bicolor L.: Key Genes and SNP Associations from Comparative Transcriptomic Analyses"
+  authors: D Jeon, JB Kim, BC Kang, C Kim
+  venue: Plants
+  note: First author · Published
+- year: 2023
+  title: Alteration of gene expression profiles in the mutant line of Sorghum bicolor
+  authors: S Choi, JS Seo, JW Ahn, SJ Kwon, D Jeon, C Kim
+  venue: Journal of Crop Science and Biotechnology
+  note: Co-author · Published
+- year: 2023
+  title: "Digitalizing breeding in plants: A new trend of next-generation breeding based on genomic prediction"
+  authors: D Jeon, Y Kang, S Lee, S Choi, Y Sung, TH Lee, C Kim
+  venue: Frontiers in Plant Science
+  note: First author · Published
+- year: 2022
+  title: Identification of SNPs and Candidate Genes Associated with Salt Stress in Two Korean Sorghum Cultivars and Understanding Selection Pressures in the Breeding Process
+  authors: D Jeon, S Lee, S Choi, Y Kang, C Kim
+  venue: Agronomy
+  note: First author · Published
+- year: 2022
+  title: Expression Profile of Sorghum Genes and Cis-Regulatory Elements under Salt-Stress Conditions
+  authors: S Lee, D Jeon, S Choi, Y Kang, S Seo, S Kwon, J Lyu, J Ahn, J Seo, C Kim
+  venue: Plants
+  note: Co-author · Published
+- year: 2022
+  title: Transcriptomic Analysis of Triticum aestivum under Salt Stress Reveals Change of Gene Expression
+  authors: D Jeon, Y Lim, Y Kang, C Park, D Lee, J Park, U Choi, K Kim, C Kim
+  venue: The Korean Journal of Crop Science
+  note: Co-first author · Published
+- year: 2022
+  title: Physio-chemical and co-expression network analysis associated with salt stress in sorghum
+  authors: S Choi, Y Kang, S Lee, D Jeon, S Seo, TH Lee, C Kim
+  venue: Frontiers in Bioscience-Landmark
+  note: Co-author · Published
+- year: 2020
+  title: Quantitative Trait Loci (QTLs) Associated with Microspore Culture in Raphanus sativus L. (Radish)
+  authors: K Kim, Y Kang, SJ Lee, SH Choi, D Jeon, MY Park, S Park, YP Lim, C Kim
+  venue: Genes
+  note: Co-author · Published
+- year: 2020
+  title: Effect of salt stress on the anthocyanin content and associated genes in Sorghum bicolor L.
+  authors: D Jeon, S Lee, S Choi, S Seo, C Kim
+  venue: Korean Journal of Agricultural Science
+  note: First author · Published
+- year: 2020
+  title: Evolutionary impact of whole genome duplication in Poaceae family
+  authors: S Lee, S Choi, D Jeon, Y Kang, C Kim
+  venue: Journal of Crop Science and Biotechnology
+  note: Co-first author · Published

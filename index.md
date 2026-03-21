@@ -10,7 +10,7 @@ nav_order: 1
     <img
       class="profile-photo"
       src="{{ '/assets/images/profile-placeholder.svg' | relative_url }}"
-      alt="Profile placeholder for Donghyun Jeon, Ph.D."
+      alt="Profile photo for Donghyun Jeon, Ph.D."
     >
   </div>
 
@@ -20,7 +20,7 @@ nav_order: 1
     <p class="profile-title">Postdoctoral Researcher</p>
     <p class="profile-affiliation">Plant Computational Genomics Lab, Chungnam National University</p>
     <p class="profile-intro">
-      My research focuses on plant genomics, transcriptomics, genome assembly, and computational approaches for understanding stress responses and improving crop traits.
+      I specialize in Genomics and Agronomy, applying computational methods to improve crop traits and understanding plant systems.
     </p>
   </div>
 </section>
@@ -79,7 +79,15 @@ nav_order: 1
   <h2>Recent News</h2>
   <ul class="compact-list">
     {% for item in site.data.news limit:3 %}
-      <li><strong>{{ item.date | date: "%b %-d, %Y" }}</strong> · {{ item.title }}</li>
+      <li>
+        <strong>
+          {% if item.display_date %}
+            {{ item.display_date }}
+          {% else %}
+            {{ item.date | date: "%b %-d, %Y" }}
+          {% endif %}
+        </strong> · {{ item.title }}
+      </li>
     {% endfor %}
   </ul>
   <p><a href="{{ '/news/' | relative_url }}">Browse all news updates</a></p>

@@ -1,12 +1,12 @@
 message: >
-  Replace this note with your preferred contact instructions, office address,
-  meeting availability, and collaboration interests.
-office: 210 Greenhouse Lane, Room 314, Example University
-email: avery.green@example.edu
+  Please contact me by email for research inquiries and collaboration related to
+  plant genomics, genome assembly, and crop trait analysis.
+office: Room 1220, College of Agriculture and Life Sciences (E10-1), Chungnam National University, 99 Daehak-ro, Yuseong-gu, Daejeon 34134, Republic of Korea
+email: jemdong@cnu.ac.kr
 social:
+  - label: Plant Computational Genomics Lab
+    url: https://sites.google.com/view/pcgl/home
   - label: GitHub
-    url: https://github.com/
+    url: https://github.com/jdh-genomics
   - label: Google Scholar
-    url: https://scholar.google.com/
-  - label: ORCID
-    url: https://orcid.org/
+    url: https://scholar.google.com/citations?user=t4ygNJMAAAAJ&hl=ko

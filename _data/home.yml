@@ -1,15 +1,14 @@
-headline: Plant genomics for crop adaptation and discovery
+headline: Genomics and agronomy for crop trait improvement
 summary: >
-  Replace this text with a concise overview of your research agenda, current
-  projects, and the questions that define your postdoctoral program.
+  Current research interests include pan genome, genome assembly, and evolution.
 featured_topics:
-  - Building high-quality reference and pangenome resources for crop species
-  - Linking genotype, transcriptome, and phenotype under abiotic stress
-  - Translating comparative genomics results into breeding-relevant hypotheses
+  - Genomics and agronomy for crop trait improvement
+  - Genome assembly and pan-genome analysis
+  - Evolutionary analysis in plant genomes
 highlights:
-  - label: Current focus
-    value: Population-scale genomics of stress adaptation in cereals
-  - label: Methods
-    value: Long-read assembly, GWAS support analyses, transcriptomics, workflow automation
-  - label: Collaboration
-    value: Open to multi-institution projects on crop improvement and genome resources
+  - label: Current position
+    value: Postdoctoral Researcher, Institute of Agricultural Science, Chungnam National University
+  - label: Research interests
+    value: Pan genome, genome assembly, evolution
+  - label: Recent recognition
+    value: Selected as a Highly Cited Paper by BRIC for "Digitalizing breeding in plants" (2025.11)

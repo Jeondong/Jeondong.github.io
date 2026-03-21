@@ -7,7 +7,7 @@ nav_order: 5
 
 <section class="page-card">
   <h1>Activities</h1>
-  <p class="page-intro">Use this page for service, mentoring, invited talks, workshops, outreach, and teaching contributions.</p>
+  <p class="page-intro">Academic service, presentations, teaching, and training carried over from the previous CV page.</p>
 
   <div class="two-column">
     <article class="section-card">

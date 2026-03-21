@@ -1,17 +1,29 @@
 service:
-  - title: Reviewer
-    details: Plants, Plant Physiology, G3, New Phytologist
-  - title: Workshop organizer
-    details: Short course on reproducible genomics workflows for plant researchers
-  - title: Mentoring
-    details: Co-mentoring graduate and undergraduate researchers in bioinformatics
+  - title: Peer review activities
+    details: Journal of Nanobiotechnology, Functional & Integrative Genomics, Scientific Data, Scientific Reports, BMC Plant Biology, and BMC Genomics
 talks:
-  - title: Invited seminar placeholder
-    details: Department of Plant Sciences, Example Institute, 2026
-  - title: Conference presentation placeholder
-    details: Plant and Animal Genome Conference, 2025
+  - title: The 22nd KOGO Winter Symposium
+    details: Poster, Hongcheon, South Korea (2026)
+  - title: The Korean Society of Plant Image Science
+    details: Poster, Byunsan, South Korea (2025)
+  - title: The Korean Society of Breeding Science International Conference
+    details: Oral, Jeju, South Korea (2024)
+  - title: The Korean Society of Breeding Science International Conference
+    details: Poster, Jeju, South Korea (2024)
+  - title: Plant & Animal Genome Conference 31
+    details: Poster, San Diego, CA, USA (2024)
+  - title: The Korean Society of Breeding Science International Conference
+    details: Poster, Jeju, South Korea (2023)
+  - title: The Korean Society of Crop Science Conference
+    details: Poster, Seoul, South Korea (2022)
+  - title: The Korean Society of Breeding Science International Conference
+    details: Poster, Jeju, South Korea (2022)
+  - title: Chungnam National University, New Agricultural Environment Innovated by Smart Technologies Symposium
+    details: Oral, Daejeon, South Korea (2021)
+  - title: International Symposium on Agricultural, Food, Environment and Life Science in Asia
+    details: Poster, Tottori, Japan (2019)
 teaching:
-  - title: Guest lecture
-    details: Comparative genomics and pangenome analysis
-  - title: Training session
-    details: RNA-seq workflows for plant stress experiments
+  - title: Research Assistant
+    details: R&E project in KOSAC, 18 months, 2021-2022, Daejeon Science High School for The Gifted, South Korea
+  - title: Undergraduate Research Intern
+    details: "Advisor: Dr. Sang-Soo Kwak, 4 months, 2018-2019, Korea Research Institute of Bioscience and Biotechnology (KRIBB), Plant Systems Engineering Research"

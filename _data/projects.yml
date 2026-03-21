@@ -1,12 +1,13 @@
-- title: Crop stress pangenome atlas
-  status: Ongoing
+- title: Pan-genome
+  status:
   summary: >
-    Replace with a short description of a project goal, system, and why it matters.
-- title: Structural variation benchmarking
-  status: In development
+    Carrot pan genome project!
+- title: Transcriptome analysis
+  status:
   summary: >
-    Summarize your tools, datasets, or benchmarking work for assembly and variant interpretation.
-- title: Reproducible workflows for plant multi-omics
-  status: Collaborative
+    Scripts will be updated soon..
+- title: OrganelleCleaner
+  status:
   summary: >
-    Describe a software, methods, or data integration effort with links to repositories when ready.
+    OrganelleCleaner is available as a software package in Python at
+    https://github.com/jdh-genomics/organelle-cleaner
