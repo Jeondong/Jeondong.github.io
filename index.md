@@ -5,71 +5,78 @@ nav_title: Home
 nav_order: 1
 ---
 
-<section class="profile-section">
-  <div class="profile-photo-wrap">
+<section class="hero hero-profile">
+  <div class="hero-visual">
     <img
-      class="profile-photo"
+      class="hero-image"
       src="{{ '/assets/images/profile-placeholder.svg' | relative_url }}"
-      alt="Profile photo for Donghyun Jeon, Ph.D."
+      alt="Profile or research image for Donghyun Jeon, Ph.D."
     >
   </div>
 
-  <div class="profile-copy">
-    <p class="badge">Profile</p>
+  <div class="hero-main">
+    <p class="badge">Plant Computational Genomics</p>
     <h1>Donghyun Jeon, Ph.D.</h1>
-    <p class="profile-title">Postdoctoral Researcher</p>
-    <p class="profile-affiliation">Plant Computational Genomics Lab, Chungnam National University</p>
-    <p class="profile-intro">
-      I specialize in Genomics and Agronomy, applying computational methods to improve crop traits and understanding plant systems.
-    </p>
-  </div>
-</section>
-
-<section class="hero">
-  <div>
-    <p class="badge">Plant Genomics</p>
-    <h1>{{ site.data.home.headline }}</h1>
-    <p>{{ site.data.profile.bio }}</p>
-    <p>{{ site.data.home.summary }}</p>
+    <p class="profile-title">{{ site.data.profile.role }}</p>
+    <p class="profile-affiliation">{{ site.data.profile.affiliation }}</p>
+    <p class="hero-intro">{{ site.data.profile.bio }}</p>
 
     <div class="cta-row">
-      <a class="button-link" href="{{ '/publications/' | relative_url }}">View Publications</a>
-      <a class="button-link secondary" href="{{ '/assets/files/cv.pdf' | relative_url }}">Download CV (PDF)</a>
+      <a class="button-link" href="{{ '/assets/files/cv.pdf' | relative_url }}">CV</a>
+      <a class="button-link secondary" href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a class="button-link secondary" href="mailto:{{ site.data.profile.email }}">Contact</a>
+      <a class="button-link secondary" href="{{ site.data.profile.website }}">Website</a>
     </div>
   </div>
 
-  <aside>
+  <aside class="hero-aside">
     <h2>At a Glance</h2>
     <ul class="hero-meta">
-      <li><strong>Affiliation:</strong> {{ site.data.profile.affiliation }}</li>
       <li><strong>Location:</strong> {{ site.data.profile.location }}</li>
       <li><strong>Email:</strong> <a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a></li>
+      <li><strong>Website:</strong> <a href="{{ site.data.profile.website }}">{{ site.data.profile.website | remove: 'https://' }}</a></li>
+      <li><strong>Google Scholar:</strong> <a href="{{ site.data.profile.google_scholar }}">Profile</a></li>
+      <li><strong>ORCID:</strong> <a href="{{ site.data.profile.orcid }}">0000-0002-4923-5930</a></li>
     </ul>
+  </aside>
+</section>
 
-    <h2>Research Interests</h2>
+<section class="two-column research-overview">
+  <article class="section-card">
+    <p class="badge">Research Focus</p>
+    <h2>{{ site.data.home.headline }}</h2>
+    <p class="section-lead">{{ site.data.home.summary }}</p>
+    <p class="section-copy">{{ site.data.home.secondary_summary }}</p>
+  </article>
+
+  <article class="section-card">
+    <h2>Keywords</h2>
+    <div class="keyword-grid">
+      {% for topic in site.data.home.featured_topics %}
+        <span class="keyword-chip">{{ topic }}</span>
+      {% endfor %}
+    </div>
+  </article>
+</section>
+
+<section class="two-column">
+  <article class="section-card">
+    <h2>Selected Research Interests</h2>
     <ul class="compact-list">
       {% for interest in site.data.profile.research_interests %}
         <li>{{ interest }}</li>
       {% endfor %}
     </ul>
-  </aside>
-</section>
-
-<section class="two-column">
-  <article class="section-card">
-    <h2>Research Highlights</h2>
-    <ul class="compact-list">
-      {% for item in site.data.home.highlights %}
-        <li><strong>{{ item.label }}:</strong> {{ item.value }}</li>
-      {% endfor %}
-    </ul>
   </article>
 
   <article class="section-card">
-    <h2>Selected Links</h2>
+    <h2>Selected Projects</h2>
     <ul class="compact-list">
-      {% for item in site.data.profile.links %}
-        <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+      {% for item in site.data.projects limit:3 %}
+        <li>
+          <strong>{{ item.title }}</strong><br>
+          {{ item.summary }}
+        </li>
       {% endfor %}
     </ul>
   </article>

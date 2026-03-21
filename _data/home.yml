@@ -1,14 +1,24 @@
-headline: Genomics and agronomy for crop trait improvement
+headline: Plant genomics and computational breeding for crop improvement
 summary: >
-  Current research interests include pan genome, genome assembly, and evolution.
+  I study plant genomes using assembly, pangenomics, transcriptomics, and
+  population-scale analyses to better understand complex traits and adaptation.
+secondary_summary: >
+  My work connects evolutionary genomics, genomic selection, and digital
+  breeding with practical bioinformatics workflows for crop improvement.
 featured_topics:
-  - Genomics and agronomy for crop trait improvement
-  - Genome assembly and pan-genome analysis
-  - Evolutionary analysis in plant genomes
+  - Plant genomics
+  - Genome assembly
+  - Pangenomics
+  - Transcriptomics
+  - Evolutionary genomics
+  - Population genomics
+  - Genomic selection
+  - Digital breeding
+  - Bioinformatics tools
 highlights:
   - label: Current position
-    value: Postdoctoral Researcher, Institute of Agricultural Science, Chungnam National University
+    value: Postdoctoral Researcher, Plant Computational Genomics Lab, Chungnam National University
   - label: Research interests
-    value: Pan genome, genome assembly, evolution
+    value: Genome assembly, pangenomics, transcriptomics, and digital breeding
   - label: Recent recognition
     value: Selected as a Highly Cited Paper by BRIC for "Digitalizing breeding in plants" (2025.11)

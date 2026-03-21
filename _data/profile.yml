@@ -3,20 +3,27 @@ role: Postdoctoral Researcher
 affiliation: Plant Computational Genomics Lab, Chungnam National University
 location: Daejeon, Republic of Korea
 email: jemdong@cnu.ac.kr
-tagline: Genomics and agronomy for crop trait improvement and plant systems research.
+website: https://jeondong.github.io/
+google_scholar: https://scholar.google.com/citations?user=t4ygNJMAAAAJ&hl=ko
+orcid: https://orcid.org/0000-0002-4923-5930
+tagline: Plant genomics and computational breeding for crop improvement.
 bio: >
-  I specialize in Genomics and Agronomy, applying computational methods to
-  improve crop traits and understanding plant systems.
+  My research focuses on plant genomics, genome assembly, transcriptomics,
+  and computational approaches for understanding complex traits, stress
+  responses, and crop improvement.
 research_interests:
-  - Genomics
-  - Agronomy
-  - Pan genome
-  - Genome assembly
-  - Evolution
+  - Plant genomics and comparative genomics
+  - Genome assembly and pangenomics
+  - Transcriptomics and stress-response analysis
+  - Evolutionary and population genomics
+  - Genomic selection and digital breeding
+  - Bioinformatics tool development
 links:
   - label: Plant Computational Genomics Lab
     url: https://sites.google.com/view/pcgl/home
-  - label: GitHub
-    url: https://github.com/jdh-genomics
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=t4ygNJMAAAAJ&hl=ko
+  - label: ORCID
+    url: https://orcid.org/0000-0002-4923-5930
+  - label: Website
+    url: https://jeondong.github.io/
