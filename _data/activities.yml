@@ -1,0 +1,17 @@
+service:
+  - title: Reviewer
+    details: Plants, Plant Physiology, G3, New Phytologist
+  - title: Workshop organizer
+    details: Short course on reproducible genomics workflows for plant researchers
+  - title: Mentoring
+    details: Co-mentoring graduate and undergraduate researchers in bioinformatics
+talks:
+  - title: Invited seminar placeholder
+    details: Department of Plant Sciences, Example Institute, 2026
+  - title: Conference presentation placeholder
+    details: Plant and Animal Genome Conference, 2025
+teaching:
+  - title: Guest lecture
+    details: Comparative genomics and pangenome analysis
+  - title: Training session
+    details: RNA-seq workflows for plant stress experiments

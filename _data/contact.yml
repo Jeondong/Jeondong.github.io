@@ -1,0 +1,12 @@
+message: >
+  Replace this note with your preferred contact instructions, office address,
+  meeting availability, and collaboration interests.
+office: 210 Greenhouse Lane, Room 314, Example University
+email: avery.green@example.edu
+social:
+  - label: GitHub
+    url: https://github.com/
+  - label: Google Scholar
+    url: https://scholar.google.com/
+  - label: ORCID
+    url: https://orcid.org/

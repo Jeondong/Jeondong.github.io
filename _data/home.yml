@@ -1,0 +1,15 @@
+headline: Plant genomics for crop adaptation and discovery
+summary: >
+  Replace this text with a concise overview of your research agenda, current
+  projects, and the questions that define your postdoctoral program.
+featured_topics:
+  - Building high-quality reference and pangenome resources for crop species
+  - Linking genotype, transcriptome, and phenotype under abiotic stress
+  - Translating comparative genomics results into breeding-relevant hypotheses
+highlights:
+  - label: Current focus
+    value: Population-scale genomics of stress adaptation in cereals
+  - label: Methods
+    value: Long-read assembly, GWAS support analyses, transcriptomics, workflow automation
+  - label: Collaboration
+    value: Open to multi-institution projects on crop improvement and genome resources

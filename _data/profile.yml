@@ -1,0 +1,23 @@
+name: Dr. Avery Green
+role: Postdoctoral Researcher in Plant Genomics
+affiliation: Department of Plant Biology, Example University
+location: Davis, California, USA
+email: avery.green@example.edu
+tagline: Investigating genome evolution, crop resilience, and functional variation across plant populations.
+bio: >
+  I am a plant genomics postdoctoral researcher studying how structural variation,
+  gene regulation, and environmental adaptation shape agronomic traits. This site
+  is set up with placeholder text so you can quickly replace it with your own
+  biography, positions, collaborators, and accomplishments.
+research_interests:
+  - Comparative and evolutionary genomics
+  - Pangenomes and structural variation
+  - Stress tolerance in crop species
+  - Reproducible bioinformatics workflows
+links:
+  - label: Google Scholar
+    url: https://scholar.google.com/
+  - label: GitHub
+    url: https://github.com/
+  - label: ORCID
+    url: https://orcid.org/

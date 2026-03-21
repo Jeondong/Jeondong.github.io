@@ -1,0 +1,12 @@
+- title: Crop stress pangenome atlas
+  status: Ongoing
+  summary: >
+    Replace with a short description of a project goal, system, and why it matters.
+- title: Structural variation benchmarking
+  status: In development
+  summary: >
+    Summarize your tools, datasets, or benchmarking work for assembly and variant interpretation.
+- title: Reproducible workflows for plant multi-omics
+  status: Collaborative
+  summary: >
+    Describe a software, methods, or data integration effort with links to repositories when ready.

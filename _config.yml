@@ -1,0 +1,9 @@
+title: Plant Genomics Research
+description: Academic website for a plant genomics postdoctoral researcher
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-feed
+collections: {}

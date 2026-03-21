@@ -1,0 +1,26 @@
+- year: 2026
+  title: Placeholder publication title on structural variation in crop genomes
+  authors: Green A, Collaborator B, Collaborator C
+  venue: Journal of Plant Genomics
+  note: In review
+  links:
+    - label: Preprint
+      url: https://example.com/preprint
+- year: 2025
+  title: Placeholder publication title on stress-response transcriptomics
+  authors: Green A, Collaborator D
+  venue: Plant Molecular Systems
+  note: Published
+  links:
+    - label: DOI
+      url: https://doi.org/
+    - label: Code
+      url: https://github.com/
+- year: 2024
+  title: Placeholder publication title on pangenome-enabled trait discovery
+  authors: Green A, Collaborator E, Collaborator F
+  venue: Theoretical Crop Biology
+  note: Published
+  links:
+    - label: PDF
+      url: https://example.com/paper.pdf
