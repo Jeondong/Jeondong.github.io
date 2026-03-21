@@ -5,6 +5,26 @@ nav_title: Home
 nav_order: 1
 ---
 
+<section class="profile-section">
+  <div class="profile-photo-wrap">
+    <img
+      class="profile-photo"
+      src="{{ '/assets/images/profile-placeholder.svg' | relative_url }}"
+      alt="Profile placeholder for Donghyun Jeon, Ph.D."
+    >
+  </div>
+
+  <div class="profile-copy">
+    <p class="badge">Profile</p>
+    <h1>Donghyun Jeon, Ph.D.</h1>
+    <p class="profile-title">Postdoctoral Researcher</p>
+    <p class="profile-affiliation">Plant Computational Genomics Lab, Chungnam National University</p>
+    <p class="profile-intro">
+      My research focuses on plant genomics, transcriptomics, genome assembly, and computational approaches for understanding stress responses and improving crop traits.
+    </p>
+  </div>
+</section>
+
 <section class="hero">
   <div>
     <p class="badge">Plant Genomics</p>

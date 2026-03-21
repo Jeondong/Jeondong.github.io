@@ -101,11 +101,57 @@ a:hover {
 
 .hero,
 .page-card,
-.section-card {
+.section-card,
+.profile-section {
   background: var(--panel-strong);
   border: 1px solid rgba(255, 255, 255, 0.75);
   box-shadow: var(--shadow);
   border-radius: 28px;
+}
+
+.profile-section {
+  display: grid;
+  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+  gap: 1.75rem;
+  align-items: center;
+  padding: 2rem;
+}
+
+.profile-photo-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-photo {
+  display: block;
+  width: min(100%, 240px);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 24px;
+  border: 1px solid var(--line);
+  background: #edf2eb;
+}
+
+.profile-copy h1 {
+  margin: 0.35rem 0 0.65rem;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.08;
+}
+
+.profile-title,
+.profile-affiliation,
+.profile-intro {
+  margin: 0 0 0.7rem;
+}
+
+.profile-title {
+  font-size: 1.12rem;
+  font-weight: 700;
+}
+
+.profile-affiliation,
+.profile-intro {
+  color: var(--muted);
 }
 
 .hero {
@@ -234,6 +280,7 @@ a:hover {
 }
 
 @media (max-width: 820px) {
+  .profile-section,
   .hero,
   .two-column {
     grid-template-columns: 1fr;
@@ -246,5 +293,13 @@ a:hover {
   .hero,
   .page-card {
     padding: 1.35rem;
+  }
+
+  .profile-section {
+    padding: 1.35rem;
+  }
+
+  .profile-photo {
+    width: min(100%, 220px);
   }
 }
