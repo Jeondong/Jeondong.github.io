@@ -186,6 +186,22 @@ img {
   color: #4a4a4a;
 }
 
+.publications-page .publication-list {
+  display: grid;
+  gap: 20px;
+}
+
+.publications-page .publication-item {
+  width: 100%;
+}
+
+.publications-page .publication-item p {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  line-height: 1.75;
+}
+
 @media (max-width: 760px) {
   .site-nav {
     flex-direction: column;
