@@ -166,6 +166,13 @@ img {
 
 .research-interests-section {
   padding-top: 30px;
+  padding-right: 24px;
+  padding-bottom: 28px;
+  padding-left: 24px;
+  border: 1px solid var(--border-soft);
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: var(--shadow-soft);
 }
 
 .interest-grid {
@@ -231,6 +238,16 @@ img {
 .project-card p + p,
 .news-item p + p {
   margin-top: 10px;
+}
+
+.project-card {
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  border-color: #ccd9d3;
+  box-shadow: 0 12px 24px rgba(19, 34, 30, 0.06);
 }
 
 .project-actions {
@@ -328,6 +345,14 @@ img {
   gap: 18px;
 }
 
+.cv-page #education-heading + .cv-entry {
+  margin-top: 0;
+}
+
+.cv-page #education-heading ~ .cv-entry {
+  margin-top: 22px;
+}
+
 .cv-page .cv-entry + .cv-entry,
 .cv-page .cv-list .cv-entry + .cv-entry,
 .cv-page .cv-subsection + .cv-subsection {
@@ -399,9 +424,12 @@ img {
   color: #4a4a4a;
 }
 
-.cv-page .cv-section > p,
-.cv-page .cv-section > address {
+.cv-page .cv-section > p {
   padding: 4px 2px 0;
+}
+
+.cv-page .cv-section > address {
+  display: block;
 }
 
 .projects-page .content-section {
@@ -598,6 +626,11 @@ img {
   .interest-grid {
     grid-template-columns: 1fr;
     padding: 18px;
+  }
+
+  .research-interests-section {
+    padding-right: 18px;
+    padding-left: 18px;
   }
 
   .hero-image {
