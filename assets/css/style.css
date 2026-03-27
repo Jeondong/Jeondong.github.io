@@ -189,7 +189,7 @@ a:hover {
   margin-top: 0;
   font-size: 1.05rem;
   letter-spacing: 0.04em;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .hero-meta,
