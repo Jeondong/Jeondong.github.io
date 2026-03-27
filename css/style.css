@@ -202,6 +202,75 @@ img {
   line-height: 1.75;
 }
 
+.cv-page {
+  max-width: 900px;
+}
+
+.cv-page h1 {
+  margin-bottom: 8px;
+}
+
+.cv-page .cv-section + .cv-section {
+  padding-top: 0;
+}
+
+.cv-page .cv-section {
+  border-top: 1px solid #ececec;
+  padding-top: 28px;
+}
+
+.cv-page .cv-section:first-of-type {
+  border-top: none;
+  padding-top: 16px;
+}
+
+.cv-page .cv-entry,
+.cv-page .cv-list,
+.cv-page .cv-subsection {
+  width: 100%;
+}
+
+.cv-page .cv-entry + .cv-entry,
+.cv-page .cv-list .cv-entry + .cv-entry,
+.cv-page .cv-subsection + .cv-subsection {
+  margin-top: 18px;
+}
+
+.cv-page .cv-entry h3,
+.cv-page .cv-subsection h3,
+.cv-page .cv-entry-title {
+  margin: 0 0 6px;
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.cv-page .cv-subsection h3 {
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.cv-page p,
+.cv-page address {
+  max-width: none;
+  margin: 0;
+  line-height: 1.75;
+}
+
+.cv-page .cv-entry p + p {
+  margin-top: 2px;
+}
+
+.cv-page .cv-date {
+  font-weight: 400;
+  color: #5f5f5f;
+}
+
+.cv-page .cv-reference {
+  font-style: normal;
+  color: #4a4a4a;
+}
+
 @media (max-width: 760px) {
   .site-nav {
     flex-direction: column;
