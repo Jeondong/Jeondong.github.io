@@ -68,28 +68,30 @@ img {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.7fr) minmax(240px, 320px);
+  grid-template-columns: minmax(0, 1.8fr) minmax(220px, 260px);
   align-items: center;
-  gap: 56px;
+  gap: 64px;
   padding: 64px 0 48px;
 }
 
 .eyebrow {
-  margin: 0 0 10px;
-  font-size: 1rem;
-  color: #4b4b4b;
+  margin: 10px 0 0;
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: #5a5a5a;
 }
 
 .hero h1,
 .page-content h1 {
   margin: 0;
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1.25;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
 
 .affiliation {
-  margin: 12px 0 0;
+  margin: 14px 0 0;
   font-size: 1rem;
   color: #444444;
 }
@@ -98,6 +100,7 @@ img {
   margin: 24px 0 0;
   max-width: 640px;
   font-size: 1rem;
+  color: #333333;
 }
 
 .hero-image {
@@ -106,10 +109,10 @@ img {
 }
 
 .hero-image img {
-  width: min(100%, 300px);
-  aspect-ratio: 3 / 4;
+  width: 220px;
+  height: 320px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 10px;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
   border: 1px solid #efefef;
 }
@@ -207,7 +210,12 @@ img {
 
   .hero h1,
   .page-content h1 {
-    font-size: 1.7rem;
+    font-size: 2rem;
+  }
+
+  .hero-image img {
+    width: 200px;
+    height: 290px;
   }
 
   .container {
