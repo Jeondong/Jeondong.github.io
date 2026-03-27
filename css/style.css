@@ -166,13 +166,6 @@ img {
 
 .research-interests-section {
   padding-top: 30px;
-  padding-right: 24px;
-  padding-bottom: 28px;
-  padding-left: 24px;
-  border: 1px solid var(--border-soft);
-  border-radius: 16px;
-  background: #ffffff;
-  box-shadow: var(--shadow-soft);
 }
 
 .interest-grid {
@@ -196,7 +189,11 @@ img {
   display: flex;
   align-items: center;
   min-height: 48px;
-  padding: 4px 0;
+  padding: 10px 14px;
+  border: 1px solid #e3ebe7;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: var(--shadow-soft);
   color: #25423d;
   font-weight: 500;
   line-height: 1.5;
@@ -626,8 +623,8 @@ img {
   }
 
   .research-interests-section {
-    padding-right: 18px;
-    padding-left: 18px;
+    padding-right: 0;
+    padding-left: 0;
   }
 
   .hero-image {
