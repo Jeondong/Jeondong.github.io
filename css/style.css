@@ -133,8 +133,8 @@ img {
 }
 
 .hero-image img {
-  width: 220px;
-  height: 391px;
+  width: 286px;
+  height: 508px;
   object-fit: cover;
   object-position: center top;
   border-radius: 14px;
@@ -637,8 +637,8 @@ img {
   }
 
   .hero-image img {
-    width: 180px;
-    height: 320px;
+    width: 234px;
+    height: 416px;
   }
 
   .container {
