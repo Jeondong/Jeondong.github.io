@@ -1,9 +1,2 @@
 title: Donghyun Jeon
-description: Academic website for Donghyun Jeon, Ph.D., Postdoctoral Researcher at Chungnam National University
-url: ""
-baseurl: ""
-markdown: kramdown
-permalink: pretty
-plugins:
-  - jekyll-feed
-collections: {}
+description: Academic personal website
