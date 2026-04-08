@@ -645,19 +645,3 @@ img {
     padding: 0 20px;
   }
 }
-.publication-year {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-
-.publication-divider {
-  border: 0;
-  border-top: 1px solid #ddd;
-  margin: 2rem 0 1.5rem;
-}
-
-.publication-item {
-  margin-bottom: 1rem;
-}
