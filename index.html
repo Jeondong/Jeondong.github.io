@@ -6,48 +6,36 @@
   <title>Donghyun Jeon, Ph.D. | Home</title>
   <link rel="stylesheet" href="css/style.css">
   <style>
-    .skills-box {
-      margin-top: 1.5rem;
-      padding: 1rem 1.25rem;
-      border: 1px solid #e0e0e0;
-      border-radius: 8px;
-      background: #fafafa;
-    }
-    .skills-box h3 {
-      font-size: 0.78rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: #888;
-      margin: 0 0 0.75rem 0;
-    }
-    .skills-grid {
+    .skills-row {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 0.75rem 1rem;
+      gap: 0.6rem;
+      margin-top: 1.5rem;
     }
-    .skill-group {
-      display: flex;
-      flex-direction: column;
-      gap: 0.25rem;
+    .skill-card {
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      background: #fafafa;
     }
-    .skill-group-label {
+    .skill-card-label {
       font-size: 0.72rem;
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.06em;
       color: #aaa;
-      margin-bottom: 0.2rem;
+      margin: 0 0 0.4rem 0;
     }
-    .skill-tag {
-      font-size: 0.82rem;
-      color: #444;
-      line-height: 1.5;
+    .skill-card ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .skill-card ul li {
+      line-height: 1.7;
     }
     @media (max-width: 600px) {
-      .skills-grid {
-        grid-template-columns: 1fr 1fr;
-      }
+      .skills-row { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -77,26 +65,29 @@
           From writing bioinformatics pipelines to assembling crop genomes and modeling genomic selection, I work at the interface of tool development, plant genomics, and agronomy — with the goal of making AI-assisted breeding a practical reality.
         </p>
 
-        <div class="skills-box">
-          <h3>Skills</h3>
-          <div class="skills-grid">
-            <div class="skill-group">
-              <span class="skill-group-label">Computational</span>
-              <span class="skill-tag">Linux &amp; Bioinformatics</span>
-              <span class="skill-tag">Python</span>
-              <span class="skill-tag">R</span>
-            </div>
-            <div class="skill-group">
-              <span class="skill-group-label">Wet Lab</span>
-              <span class="skill-tag">NGS library preparation</span>
-              <span class="skill-tag">Plant physiological experiments</span>
-            </div>
-            <div class="skill-group">
-              <span class="skill-group-label">Agronomy</span>
-              <span class="skill-tag">Field experiment design</span>
-              <span class="skill-tag">Phenotyping &amp; trait evaluation</span>
-              <span class="skill-tag">Plant cultivation</span>
-            </div>
+        <div class="skills-row">
+          <div class="skill-card">
+            <p class="skill-card-label">Computational</p>
+            <ul>
+              <li>Linux &amp; Bioinformatics</li>
+              <li>Python</li>
+              <li>R</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <p class="skill-card-label">Wet Lab</p>
+            <ul>
+              <li>NGS library preparation</li>
+              <li>Plant physiology</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <p class="skill-card-label">Agronomy</p>
+            <ul>
+              <li>Field experiment design</li>
+              <li>Phenotyping &amp; trait evaluation</li>
+              <li>Plant cultivation</li>
+            </ul>
           </div>
         </div>
 
