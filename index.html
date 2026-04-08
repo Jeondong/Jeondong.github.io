@@ -5,6 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Donghyun Jeon, Ph.D. | Home</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .skills-box {
+      margin-top: 1.5rem;
+      padding: 1rem 1.25rem;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+    .skills-box h3 {
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #888;
+      margin: 0 0 0.75rem 0;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.75rem 1rem;
+    }
+    .skill-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+    .skill-group-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #aaa;
+      margin-bottom: 0.2rem;
+    }
+    .skill-tag {
+      font-size: 0.82rem;
+      color: #444;
+      line-height: 1.5;
+    }
+    @media (max-width: 600px) {
+      .skills-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -22,7 +67,6 @@
       </nav>
     </div>
   </header>
-
   <main class="container">
     <section class="hero">
       <div class="hero-text">
@@ -30,15 +74,37 @@
         <p class="eyebrow">Postdoctoral Researcher</p>
         <p class="affiliation"><a class="inline-academic-link" href="https://sites.google.com/view/pcgl/home" target="_blank" rel="noopener noreferrer">Plant Computational Genomics Lab</a>, Chungnam National University</p>
         <p class="intro">
-          I specialize in Genomics and Agronomy, applying computational methods to improve crop
-          traits and understanding plant systems.
+          From writing bioinformatics pipelines to assembling crop genomes and modeling genomic selection, I work at the interface of tool development, plant genomics, and agronomy — with the goal of making AI-assisted breeding a practical reality.
         </p>
+
+        <div class="skills-box">
+          <h3>Skills</h3>
+          <div class="skills-grid">
+            <div class="skill-group">
+              <span class="skill-group-label">Computational</span>
+              <span class="skill-tag">Linux &amp; Bioinformatics</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">R</span>
+            </div>
+            <div class="skill-group">
+              <span class="skill-group-label">Wet Lab</span>
+              <span class="skill-tag">NGS library preparation</span>
+              <span class="skill-tag">Plant physiological experiments</span>
+            </div>
+            <div class="skill-group">
+              <span class="skill-group-label">Agronomy</span>
+              <span class="skill-tag">Field experiment design</span>
+              <span class="skill-tag">Phenotyping &amp; trait evaluation</span>
+              <span class="skill-tag">Plant cultivation</span>
+            </div>
+          </div>
+        </div>
+
       </div>
       <div class="hero-image">
         <img src="images/profile.jpg" alt="Profile placeholder for Donghyun Jeon">
       </div>
     </section>
-
     <section class="content-section research-interests-section">
       <h2>Selected Research Interests</h2>
       <ul class="interest-list interest-grid">
@@ -55,7 +121,6 @@
         <li class="interest-item">Bioinformatics tool development</li>
       </ul>
     </section>
-
     <section class="content-section">
       <h2>Current Projects</h2>
       <div class="project-list">
@@ -73,7 +138,6 @@
         </article>
       </div>
     </section>
-
     <section class="content-section">
       <h2>News</h2>
       <div class="news-list">
